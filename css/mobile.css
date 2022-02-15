@@ -1,0 +1,94 @@
+@media screen and (max-width: 1258px) {
+    .items {
+      font-size: 1.2vw;
+    }
+    .picture img {
+      width: 600px;
+      margin-top: 62px;
+      margin-left: 30px;
+    }
+    .formContainer {
+      max-width: 300px;
+    }
+    .formContainer h1 {
+      font-size: 1.8vw;
+    }
+    .formContainer p {
+      font-size: 1.2vw;
+    }
+    input,
+    select {
+      font-size: 1vw;
+      padding: 10px;
+    }
+    .sectionTwo {
+      max-width: 65vw;
+      max-height: 20vh;
+    }
+    .text {
+      font-size: 1.3vw;
+      padding: 10px;
+    }
+    .text p {
+      margin-bottom: 10px;
+    }
+    .lamp {
+      width: 4vw;
+      padding-right: 0px;
+    }
+    .contact h4 {
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 970px) {
+    .itemMenu {
+      float: none;
+      text-align: center;
+    }
+    .sectionOne {
+      display: block;
+      padding: 0;
+    }
+    .picture img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      max-width: 75vw;
+    }
+    .formContainer {
+      float: none;
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 71vw;
+    }
+    .formContainer h1 {
+      text-align: center;
+    }
+    .sectionTwo {
+      display: flex;
+      padding: 5vw;
+      border-left: 0.5vw solid rgb(117 111 143);
+      border-bottom: 0.5vw solid rgb(117 111 143);
+    }
+    .text {
+      padding: 5px;
+    }
+    .lamp {
+      width: 4vw;
+      margin-top: 14px;
+      margin-left: 5px;
+    }
+    .contact h4 {
+      margin-top: 30px;
+      font-size: 1.2vw;
+    }
+    #twitter,
+    #instagram,
+    #facebook {
+      width: 2vw;
+      display: inline;
+      padding: 5px;
+    }
+  }
