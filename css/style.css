@@ -1,233 +1,267 @@
+/* Home da página */
+
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-  font-family: "Poppins", sans-serif;
-  background-color: rgb(250, 249, 249);
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .items {
-  list-style: none;
-  overflow: hidden;
-  background-color: rgb(176, 186, 240);
+    list-style: none;
+    overflow: hidden;
+    background-color: #7365B4;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .itemMenu {
-  float: right;
-  font-weight: bold;
+    float: right;
+    color: white;
+    padding: 15px 5px 15px 5px;
+}
+
+.itemLogo {
+    float: left;
 }
 
 .itemMenu a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.itemMenu a:hover {
-  background-color: rgb(115, 101, 180);
-}
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+  }
+  
+  .itemMenu a:hover {
+    background-color: #CAD5F3;
+    color: black;
+    transition: 0.5s;
+  }
 
 .sectionOne {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1300px;
-  margin: auto;
-  padding: 20px;
+    background-color: #E8ECEF;
+    height: 960px;
+}
+.containerOne {
+    max-width: 1300px;
+    margin: auto;
+    color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
-.picture img {
-  width: 800px;
+.texts h1 {
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-size: 16px; 
 }
 
-.formContainer {
-  margin-top: 155px;
-  margin-right: 120px;
-  max-width: 400px;
-  float: right;
+.texts h2 {
+    font-weight: 300;
+    font-size: 14px;
 }
 
-.formContainer h1 {
-  font-weight: bolder;
-  font-size: 28px;
+.presentation, .firstImage {
+    padding-top: 40px;
 }
 
-.formContainer p {
-  font-weight: bold;
-  font-size: 17px;
+.presentation {
+    margin-top: 200px;
+    padding-right: 140px;
+    
+}
+.presentation #titlePresentation {
+    font-size: 37px;
+    font-weight: 500;
+    padding-bottom: 20px;
 }
 
-.mb {
-  margin-bottom: 15px;
+.presentation #p2 {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
 }
 
-input,
-select {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 15px;
-  border: none;
-  margin-bottom: 10px;
+.cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 290px;
+    width: 390px;
 }
 
-input[type="submit"] {
-  color: white;
-  /* background-color: #b0baf0; */
-  background-color: rgb(115, 101, 180);
-  font-weight: bold;
-  border-radius: 5px;
+.cards strong {
+    display: block;
 }
 
-#button:hover {
-  background-color: rgb(115, 101, 180);
-  cursor: pointer;
+.cardDiscord, .cardNewsletters {
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 160px;
 }
+
+.cards a {
+    text-decoration: none;
+}
+
+.cardDiscord:hover, .cardNewsletters:hover {
+    color: white;
+    background-color: #7365B4;
+    transition: 0.5s;
+}
+
+.cards img {
+    width: 40px;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.firstImage img {
+    width: 600px;
+    margin-top: 120px;
+}
+
+/* Saiba mais */
 
 .sectionTwo {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1000px;
-  background-color: #b0baf0;
-  border-radius: 10px;
-  border-left: 2.5px solid rgb(117 111 143);
-  border-bottom: 2.5px solid rgb(117 111 143);
-  margin: auto;
-  padding: 30px;
+    background-color: #CAD5F3;
+    height: 960px;
 }
 
-.text {
-  font-weight: bold;
-  font-size: 18px;
-  padding: 20px;
-  padding-top: 20px;
+.containerTwo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 200px;
+    color: black;
 }
 
-.text p {
-  margin-bottom: 15px;
+.description {
+    margin-top: 80px;
+    margin-right: 140px;
 }
 
-.lamp {
-  width: 60px;
-  margin-top: 26px;
-  padding-right: 20px;
+#titleDescription {
+    font-size: 37px;
+    font-weight: 500;
+    padding-bottom: 20px;
 }
 
-.contact h4 {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 14px;
+.description p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    max-width: 500px;
+    text-align: justify;
+}
+
+.secondImage img {
+    width: 600px;
+    margin-top: 30px;
+}
+
+#star1 {
+    float: left;
+    width: 100px;
+    padding: 50px 0px 0px 50px;
+}
+
+#star2 {
+    float: right;
+    width: 100px;
+    padding: 0px 0px 50px 50px;
+}
+
+/* Contato */
+
+.sectionThree {
+    background-color: #E8ECEF;
+    height: 960px;
+}
+.containerThree {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 150px;
+  }
+  
+  .picture img {
+    width: 800px;
+  }
+  
+  .formContainer {
+    margin-top: 155px;
+    margin-right: 120px;
+    max-width: 400px;
+    float: right;
+  }
+  
+  .formContainer h3 {
+    font-weight: 500;
+    font-size: 37px;
+  }
+  
+  .formContainer p {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: justify;
+  }
+  
+  .mb {
+    margin-bottom: 20px;
+  }
+
+  input,
+  select {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    color: white;
+    background-color: rgb(115, 101, 180);
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  #button:hover {
+    background-color: rgb(115, 101, 180);
+    cursor: pointer;
+  }
+
+/* Contato */
+
+.sectionFour {
+    background-color: #E8ECEF;
+}
+
+#contato h4 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .socialMedias {
-  display: flex;
+  display: flex;  
   justify-content: center;
   align-items: center;
   list-style: none;
 }
-
-#twitter,
-#instagram,
-#facebook {
-  width: 20px;
-  display: inline;
-  padding: 10px;
+.socialMedias img {
+    width: 30px;
+    padding: 15px;
 }
-/* @media screen and (max-width: 1258px) {
-  .items {
-    font-size: 1.2vw;
-  }
-  .picture img {
-    width: 600px;
-    margin-top: 62px;
-    margin-left: 30px;
-  }
-  .formContainer {
-    max-width: 300px;
-  }
-  .formContainer h1 {
-    font-size: 1.8vw;
-  }
-  .formContainer p {
-    font-size: 1.2vw;
-  }
-  input,
-  select {
-    font-size: 1vw;
-    padding: 10px;
-  }
-  .sectionTwo {
-    max-width: 65vw;
-    max-height: 20vh;
-  }
-  .text {
-    font-size: 1.3vw;
-    padding: 10px;
-  }
-  .text p {
-    margin-bottom: 10px;
-  }
-  .lamp {
-    width: 4vw;
-    padding-right: 0px;
-  }
-  .contact h4 {
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 970px) {
-  .itemMenu {
-    float: none;
-    text-align: center;
-  }
-  .sectionOne {
-    display: block;
-    padding: 0;
-  }
-  .picture img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    max-width: 75vw;
-  }
-  .formContainer {
-    float: none;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 71vw;
-  }
-  .formContainer h1 {
-    text-align: center;
-  }
-  .sectionTwo {
-    display: flex;
-    padding: 5vw;
-    border-left: 0.5vw solid rgb(117 111 143);
-    border-bottom: 0.5vw solid rgb(117 111 143);
-  }
-  .text {
-    padding: 5px;
-  }
-  .lamp {
-    width: 4vw;
-    margin-top: 14px;
-    margin-left: 5px;
-  }
-  .contact h4 {
-    margin-top: 30px;
-    font-size: 1.2vw;
-  }
-  #twitter,
-  #instagram,
-  #facebook {
-    width: 2vw;
-    display: inline;
-    padding: 5px;
-  }
-} */

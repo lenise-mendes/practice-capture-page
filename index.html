@@ -1,80 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./images/icon.png" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/mobile.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/icon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap" rel="stylesheet">
     <title>eulenismos</title>
-  </head>
-  <header>
-    <nav class="menu">
-      <ul class="items">
-        <li class="itemMenu"><a href="">Contato</a></li>
-        <li class="itemMenu"><a href="">Saiba mais</a></li>
-        <li class="itemMenu"><a href="">Quero participar</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="sectionOne">
-    <div class="picture">
-      <img src="./images/background.png" alt="" />
-    </div>
-    <div class="formContainer">
-      <h1 class="title mb">Venha fazer parte do clube eulenismos</h1>
-      <p class="mb">
-        São várias horas de leitura e de muita conexão, para aprender e
-        compartilhar todo o conhecimento adquirido. Se inscreva abaixo!
-      </p>
-      <form>
-        <input id="name" name="name" type="text" placeholder="Nome" />
-        <input id="email" name="email" type="email" placeholder="E-mail" />
-        <input id="button" type="submit" value="INSCREVA-SE" />
-      </form>
-    </div>
-  </section>
-  <section class="sectionTwo">
-    <div class="text">
-      <p>
-        Aqui as suas ideias tem valor! Se conectando com diferentes pessoas e
-        sendo parte de um clube, você poderá mostrar para o mundo todo o
-        conhecimento que vem guardando para você =)
-      </p>
-      <p>As suas ideias agora não são só suas, mas sim de todos!</p>
-    </div>
-    <div>
-      <img class="lamp" src="./images/lamp.png" alt="" />
-    </div>
-  </section>
-  <footer class="contact">
-    <div>
-      <h4>Onde me encontrar</h4>
-    </div>
-    <div>
-      <ul class="socialMedias">
-        <li>
-          <a href=""><img id="twitter" src="./images/twitter.png" alt="" /></a>
-        </li>
-        <li>
-          <a href=""
-            ><img id="instagram" src="./images/instagram.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href=""
-            ><img id="facebook" src="./images/facebook.png" alt=""
-          /></a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-  <body></body>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="items">
+                <li class="itemMenu itemContato"><a href="#contato">Contato</a></li>
+                <li class="itemMenu"><a href="#quero-participar">Quero participar</a></li>
+                <li class="itemMenu"><a href="#saiba-mais">Saiba mais</a></li>
+                <li class="itemMenu"><a href="#inicio">Início</a></li>
+                <li class="itemMenu itemLogo"><a href="#inicio">Logo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio" class="sectionOne">
+        <div class="containerOne">
+            <div class="texts">
+                <div class="title">
+                    <h1>Clube de Leitura</h1>
+                    <h2>por @eulenismos</h2>
+                </div>
+                <div class="presentation">
+                    <h3 id="titlePresentation">Conecte-se pela leitura.</h3>
+                    <p id="p2">Fazendo parte do nosso <strong>Clube de Leitura</strong>, você poderá conhecer diferentes pessoas que tem gostos parecidos com os seus e compartilhar os seus conhecimentos.</p>
+                </div>
+                <div class="cards">
+                    <a href="#quero-participar"><p class="cardDiscord"><img src="assets/discord.svg" alt="">Entre no nosso servidor.</p></a>
+                    <a href="#quero-participar"><p class="cardNewsletters"><img src="assets/e-mail.svg" alt="">Receba as nossas newsletters.</p></a>
+                </div>
+            </div>
+            <div class="firstImage">
+                <img src="assets/womannotebook.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="saiba-mais" class="sectionTwo">
+        <div class="containerTwo">
+            <div class="secondImage">
+                <img src="assets/woman-computer.png" alt="">
+            </div>
+            <div class="description">
+                <h3 id="titleDescription">Junte-se ao clube.</h3>
+                <p>Aqui as suas ideias tem valor. Se conectando com diferentes pessoas e sendo parte de um clube, você poderá <strong>mostrar</strong> para o mundo todo o conhecimento que vem guardando para você.</p>
+                <p>Nós temos uma grande <strong>comunidade</strong> no Discord para troca de conhecimentos, além de newsletters semanais com indicações de livros.</p>
+                <p>Para se inscrever é muito <strong>simples</strong>! Basta preencher os seus dados no formulário abaixo e você logo receberá um e-mail com mais informações.</p>
+            </div>
+        </div>
+    </section>
+    <section id="quero-participar" class="sectionThree">
+        <div class="containerThree">
+            <div id="formulario" class="formContainer">
+                <h3 class="title mb">Venha fazer parte!</h3>
+                <p class="mb">São várias horas de leitura e de muita <strong>conexão</strong>, para aprender e compartilhar todo o conhecimento adquirido. Se inscreva abaixo!</p>
+                <form>
+                    <input id="name" name="name" type="text" placeholder="Nome" />
+                    <input id="email" name="email" type="email" placeholder="E-mail" />
+                    <input id="button" type="submit" value="INSCREVA-SE" />
+                </form>
+            </div>
+            <div class="picture">
+                <img src="assets/background.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <footer class="sectionFour" id="contato">
+        <div>
+            <h4>Me siga nas minhas redes sociais</h4>
+        </div>
+        <ul class="socialMedias">
+            <li><a href="https://www.linkedin.com/in/lenise-mendes/" target="_blank"><img id="linkedin" src="assets/linkedin.svg" alt="" /></a></li>
+            <li><a href="https://www.instagram.com/lenisemendes/" target="_blank"><img id="instagram" src="assets/instagram.svg" alt=""/></a><li>
+            <li><a href="https://github.com/lenise-mendes" target="_blank"><img id="github" src="assets/github.svg" alt=""/></a></li>
+        </ul>
+    </footer>
+</body>
 </html>
